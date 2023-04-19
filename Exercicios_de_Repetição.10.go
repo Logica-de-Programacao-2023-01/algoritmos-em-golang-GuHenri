@@ -16,6 +16,8 @@ func main() {
 			maior = a
 		} else if a > maior {
 			maior = a
+		} else {
+			maior = b
 		}
 		if a == 0 {
 			break
